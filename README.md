@@ -46,6 +46,7 @@ A classic Hangman game implemented in Python using Tkinter, featuring an interac
 - The file `Hangman GUI words list.txt` should contain words separated by spaces or new lines.
 - All words are automatically converted to **uppercase**.
 - Example:
+  
     PYTHON
   
     COMPUTER
@@ -53,19 +54,21 @@ A classic Hangman game implemented in Python using Tkinter, featuring an interac
     HANGMAN
   
     PROGRAMMING
+---
 
 ## Running the Game
 
 ```bash
 python hangman_gui.py
 ```
+---
 
 ## Sound Effects
 
 - A short beep plays when a letter button is clicked.
 - A longer alert sound plays when the hangman is fully drawn, indicating game over.
 - Note: Sound functionality relies on the winsound module and works only on Windows.
-
+---
 ## Restart System
 
 - After winning or losing, the player is asked whether to restart the game.
@@ -75,3 +78,11 @@ python hangman_gui.py
     - Correct and incorrect guesses
     - Hangman drawing
     - Alphabet button states
+---
+## Future Improvements
+
+- Add a background wallpaper
+- Make the background dynamic and interactive
+- Add difficulty levels
+- Enable keyboard input
+- Add score tracking
